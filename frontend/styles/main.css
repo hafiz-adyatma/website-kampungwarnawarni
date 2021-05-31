@@ -1,0 +1,201 @@
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  visibility: none;
+}
+
+.navbar-collapse li {
+  font-size: 14px;
+}
+
+.btn-login {
+  background-color: none;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+header {
+  padding: 220px 0 165px;
+  background: rgba(0, 0, 0, 0.5) url("../images/header-image.jpg");
+  background-blend-mode: darken;
+  background-size: cover;
+  margin-top: -90px;
+}
+
+header h1,
+header h2,
+header p {
+  color: white;
+}
+
+header h1,
+header h2 {
+  font-size: 50px;
+}
+
+header h1 {
+  font-family: "Poppins", serif;
+  font-weight: bold;
+}
+
+header h2 {
+  font-family: "Poppins", serif;
+}
+
+header p {
+  font-size: 15px;
+}
+
+header .btn-get-started {
+  background-color: #ff8838;
+  color: white;
+}
+
+header .btn-get-started:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  border-radius: 15px;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.section-stats .stats-detail-left {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+  border-radius: 15px 0 0 15px;
+}
+
+.section-stats .stats-detail-right {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+  border-radius: 0 15px 15px 0;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.details .container {
+  margin-top: 125px;
+}
+
+.details h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.details p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.details img {
+  border-radius: 20px;
+  width: 200px;
+}
+
+.details .btn-view-details {
+  background-color: #ff8838;
+  color: white;
+}
+
+.details .btn-view-details:hover {
+  background-color: #ffb98a;
+  color: white;
+}
+
+.details hr {
+  margin-top: 100px;
+  width: 30%;
+}
+
+.openfrom .container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.openfrom .container h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.openfrom .container h2 {
+  font-size: 20px;
+}
+
+.openfrom .container .btn-buy-ticket {
+  background-color: #ff8838;
+  color: white;
+}
+
+.openfrom hr {
+  margin-top: 100px;
+  width: 30%;
+}
+
+.merchandise-section {
+  margin-top: 80px;
+}
+
+.merchandise-section .merchandise-section-details .title {
+  font-weight: bold;
+}
+
+.merchandise-section .merchandise-section-details .card-merchandise {
+  min-height: 380px;
+  background-color: #ddd;
+  color: white;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.merchandise-section .merchandise-section-details .merchandise-name {
+  font-size: 18px;
+  color: white;
+}
+
+.merchandise-section .merchandise-section-details .merchandise-price {
+  font-size: 26px;
+  color: white;
+}
+
+.merchandise-section .merchandise-section-details .merchandise-button .btn-merchandise-details {
+  background-color: #ff8838;
+  color: white;
+}
+
+.merchandise-section .merchandise-section-details .merchandise-button .btn-merchandise-details:hover {
+  background-color: #ffb583;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
