@@ -29,10 +29,6 @@ body p {
   color: #fff;
 }
 
-.container {
-  margin-top: 15px;
-}
-
 header {
   padding: 220px 0 165px;
   background: rgba(0, 0, 0, 0.5) url("../images/header-image.jpg");
@@ -284,8 +280,8 @@ header .btn-get-started:hover {
 }
 
 footer {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  margin-top: -40px;
+  background-color: none;
 }
 
 footer .footer-title h2 {
@@ -295,6 +291,10 @@ footer .footer-title h2 {
 
 .about-main-content {
   padding-top: 20px;
+}
+
+.about-main-content .photo-spot-container {
+  margin-bottom: 100px;
 }
 
 .about-main-content .new-page {
@@ -340,11 +340,12 @@ footer .footer-title h2 {
 }
 
 .login-card {
-  padding: 220px 0 165px;
+  padding: 190px 0 165px;
   background: rgba(0, 0, 0, 0.5) url("../images/header-image.jpg");
   background-blend-mode: darken;
   background-size: cover;
   margin-top: -90px;
+  margin-bottom: auto;
   /*support google chrome*/
   /*support mozilla*/
   /*support internet explorer*/
@@ -361,7 +362,7 @@ footer .footer-title h2 {
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.15);
   -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   padding: 30px 0 30px 0;
 }
 
