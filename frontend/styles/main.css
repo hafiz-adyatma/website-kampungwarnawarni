@@ -3,6 +3,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body h1,
+body h2,
+body h3,
+body p {
+  color: #567568;
+}
+
 .navbar-brand img {
   max-height: 40px;
   visibility: none;
@@ -61,6 +68,7 @@ header p {
 header .btn-get-started {
   background-color: #ff8838;
   color: white;
+  border-radius: 15px;
 }
 
 header .btn-get-started:hover {
@@ -177,6 +185,7 @@ header .btn-get-started:hover {
   background-size: cover;
   margin-bottom: 20px;
   margin-top: 50px;
+  border-radius: 10px;
 }
 
 .merchandise-section .merchandise-section-details .merchandise-name {
@@ -197,5 +206,207 @@ header .btn-get-started:hover {
 .merchandise-section .merchandise-section-details .merchandise-button .btn-merchandise-details:hover {
   background-color: #ffb583;
   color: white;
+}
+
+.merchandise-section hr {
+  margin-top: 100px;
+  width: 30%;
+}
+
+.video-gallery {
+  margin-top: 80px;
+}
+
+.video-gallery hr {
+  margin-top: 100px;
+  width: 30%;
+}
+
+.video-gallery .youtube-videos {
+  margin-top: 40px;
+}
+
+.video-gallery .youtube-videos iframe {
+  border-radius: 10px;
+}
+
+.location-maps {
+  margin-top: 80px;
+}
+
+.location-maps hr {
+  margin-top: 100px;
+  width: 30%;
+}
+
+.location-maps iframe {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.contact-us {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.contact-us .form-details h3 {
+  margin-bottom: 20px;
+}
+
+.contact-us .form-details .form-group input {
+  margin-bottom: 10px;
+}
+
+.contact-us .form-details .form-group #input-feedback {
+  height: 50px;
+}
+
+.contact-us .form-details .btn-form-submit {
+  background-color: #ff8838;
+  color: white;
+  float: right;
+}
+
+.contact-us .about-details h3,
+.contact-us .about-details h4 {
+  color: #567568;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-us .about-details .title {
+  font-weight: bold;
+}
+
+.contact-us .about-details h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer .footer-title h2 {
+  font-size: 15px;
+  color: #707070;
+}
+
+.about-main-content {
+  padding-top: 20px;
+}
+
+.about-main-content .new-page {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-main-content span {
+  font-weight: bold;
+}
+
+.about-main-content .title-about-main span {
+  font-weight: bold;
+}
+
+.thankyou-content {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.thankyou-content img {
+  margin-bottom: 30px;
+}
+
+.thankyou-content h2 {
+  font-size: 25px;
+  color: #567568;
+}
+
+.thankyou-content span {
+  font-weight: bold;
+}
+
+.thankyou-content .btn-get-started {
+  margin-bottom: 50px;
+  background-color: #ff8838;
+  color: white;
+}
+
+.thankyou-content .btn-get-started:hover {
+  background-color: #ffb98b;
+  color: white;
+}
+
+.login-card {
+  padding: 220px 0 165px;
+  background: rgba(0, 0, 0, 0.5) url("../images/header-image.jpg");
+  background-blend-mode: darken;
+  background-size: cover;
+  margin-top: -90px;
+  /*support google chrome*/
+  /*support mozilla*/
+  /*support internet explorer*/
+}
+
+.login-card h2 {
+  color: white;
+}
+
+.login-card .login-card-box {
+  margin: auto;
+  width: 20em;
+  height: 250px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  padding: 30px 0 30px 0;
+}
+
+.login-card .form-control {
+  margin: auto;
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+.login-card .form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  border: none;
+}
+
+.login-card .form-control:-moz-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  border: none;
+}
+
+.login-card .form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  border: none;
+}
+
+.login-card .form-check-input {
+  color: red;
+}
+
+.login-card .btn-form-signup {
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.login-card .btn-login {
+  background-color: #ff8838;
+  color: white;
+  border-radius: 10px;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */
