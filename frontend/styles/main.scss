@@ -33,6 +33,415 @@ body {
   }
 }
 
+
+//header
+header {
+  padding: 220px 0 165px;
+  background: rgba(0, 0, 0, 0.5) url("../images/header-image.jpg");
+  background-blend-mode: darken;
+
+  background-size: cover;
+  margin-top: -90px;
+
+  h1,
+  h2,
+  p {
+    color: white;
+  }
+
+  h1,
+  h2 {
+    font-size: 50px;
+  }
+
+  h1 {
+    font-family: "Poppins", serif;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-family: "Poppins", serif;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .btn-get-started {
+    background-color: #ff8838;
+    color: white;
+    border-radius: 15px;
+
+    &:hover {
+      background-color: rgba($color: #fff, $alpha: 0.5);
+      color: white;
+      border-radius: 15px;
+    }
+  }
+}
+
+//statistic
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  .stats-detail-left {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .stats-detail-right {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+    border-radius: 0 15px 15px 0;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: normal;
+  }
+}
+
+//details
+.details {
+  .container {
+    margin-top: 125px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  img {
+    border-radius: 20px;
+    width: 200px;
+  }
+
+  .btn-view-details {
+    background-color: #ff8838;
+    color: white;
+
+    &:hover {
+      background-color: #ffb98a;
+      color: white;
+    }
+  }
+
+  hr {
+    margin-top: 100px;
+    width: 30%;
+  }
+}
+
+//openfrom
+.openfrom {
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h3 {
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .btn-buy-ticket {
+      background-color: #ff8838;
+      color: white;
+    }
+  }
+
+  hr {
+    margin-top: 100px;
+    width: 30%;
+  }
+}
+
+//merchandise
+.merchandise-section {
+  margin-top: 80px;
+
+  .merchandise-section-details {
+    .title {
+      font-weight: bold;
+    }
+    .card-merchandise {
+      min-height: 380px;
+      background-color: #ddd;
+      color: white;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      border-radius: 10px;
+    }
+
+    .merchandise-name {
+      font-size: 18px;
+      color: white;
+    }
+
+    .merchandise-price {
+      font-size: 26px;
+      color: white;
+    }
+
+    .merchandise-button {
+      .btn-merchandise-details {
+        background-color: #ff8838;
+        color: white;
+
+        &:hover {
+          background-color: #ffb583;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.merchandise-section {
+  hr {
+    margin-top: 100px;
+    width: 30%;
+  }
+}
+
+.video-gallery {
+  margin-top: 80px;
+
+  hr {
+    margin-top: 100px;
+    width: 30%;
+  }
+
+  .youtube-videos {
+    margin-top: 40px;
+    iframe {
+      border-radius: 10px;
+    }
+  }
+}
+
+.location-maps {
+  margin-top: 80px;
+
+  hr {
+    margin-top: 100px;
+    width: 30%;
+  }
+
+  iframe {
+    margin-top: 40px;
+    border-radius: 20px;
+  }
+}
+
+.contact-us {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  .form-details {
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      input {
+        margin-bottom: 10px;
+      }
+
+      #input-feedback {
+        height: 50px;
+      }
+    }
+
+    .btn-form-submit {
+      background-color: #ff8838;
+      color: white;
+      float: right;
+    }
+  }
+
+  .about-details {
+    h3,
+    h4 {
+      color: #567568;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .title {
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+}
+
+footer {
+  margin-top: -40px;
+  background-color: none;
+  .footer-title {
+    h2 {
+      font-size: 15px;
+      color: #707070;
+    }
+  }
+}
+
+.about-main-content {
+  padding-top: 20px;
+
+  .photo-spot-container {
+    margin-bottom: 100px;
+  }
+  .new-page {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  .title-about-main {
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+//thankyou page
+.thankyou-content {
+  margin-top: 200px;
+  margin-bottom: 50px;
+
+  img {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: #567568;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  .btn-get-started {
+    margin-bottom: 50px;
+
+    background-color: #ff8838;
+    color: white;
+
+    &:hover {
+      background-color: #ffb98b;
+      color: white;
+    }
+  }
+}
+
+
+//login-page
+.login-card {
+  padding: 190px 0 165px;
+  background: rgba(0, 0, 0, 0.5) url("../images/header-image.jpg");
+  background-blend-mode: darken;
+
+  background-size: cover;
+  margin-top: -90px;
+  margin-bottom: auto;
+
+  h2 {
+    color: white;
+  }
+
+  .login-card-box {
+    margin: auto;
+    width: 20em;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(3px);
+    padding: 30px 0 30px 0;
+  }
+
+  .form-control {
+    margin: auto;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+  }
+
+  /*support google chrome*/
+  .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    border: none;
+  }
+
+  /*support mozilla*/
+  .form-control:-moz-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    border: none;
+  }
+
+  /*support internet explorer*/
+  .form-control:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    border: none;
+  }
+
+  .form-check-input {
+    color: red;
+  }
+
+  .btn-form-signup {
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .btn-login {
+    background-color: #ff8838;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+}
+
 .container {
   margin-top: 15px;
 }
