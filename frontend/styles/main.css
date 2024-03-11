@@ -24,9 +24,20 @@ body p {
   color: white;
 }
 
+.btn-login2 {
+  background-color: none;
+  color: #707070;
+}
+
+
 .btn-login:hover {
   background-color: rgba(255, 255, 255, 0.25);
   color: #fff;
+}
+
+.btn-login2:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ff8838;
 }
 
 header {
@@ -160,6 +171,10 @@ header .btn-get-started:hover {
   color: white;
 }
 
+.openfrom .container .btn-buy-ticket:hover{
+  background-color: #ffb98a;
+}
+
 .openfrom hr {
   margin-top: 100px;
   width: 30%;
@@ -174,27 +189,38 @@ header .btn-get-started:hover {
 }
 
 .merchandise-section .merchandise-section-details .card-merchandise {
+  transition: all 0.5s;
   min-height: 380px;
-  background-color: #ddd;
+  background-color: #ffffff;
   color: white;
   padding: 30px;
   background-size: cover;
   margin-bottom: 20px;
   margin-top: 50px;
   border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.445);
+}
+
+.merchandise-section .merchandise-section-details .card-merchandise:hover{
+  transform: scale(1.05);
 }
 
 .merchandise-section .merchandise-section-details .merchandise-name {
-  font-size: 18px;
-  color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(75, 75, 75);
 }
 
 .merchandise-section .merchandise-section-details .merchandise-price {
-  font-size: 26px;
-  color: white;
+  margin-top: 20px;
+  text-align:center;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
 }
 
 .merchandise-section .merchandise-section-details .merchandise-button .btn-merchandise-details {
+  margin-top: 10px;
   background-color: #ff8838;
   color: white;
 }
@@ -207,6 +233,11 @@ header .btn-get-started:hover {
 .merchandise-section hr {
   margin-top: 100px;
   width: 30%;
+}
+
+.merchandise-section .merchandise-section-details .img-content{
+  width: 200px;
+  height: 200px;
 }
 
 .video-gallery {
@@ -261,6 +292,10 @@ header .btn-get-started:hover {
   background-color: #ff8838;
   color: white;
   float: right;
+}
+
+.contact-us .form-details .btn-form-submit:hover{
+  background-color: #ffb583;
 }
 
 .contact-us .about-details h3,
